@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>부여 롯데리조트 2박 3일 맛집·볼거리</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f3f0;
+      --card: #ffffff;
+      --text: #1a1a18;
+      --muted: #5a5a56;
+      --border: #e2e1dc;
+      --heading: #111110;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161615;
+        --card: #242422;
+        --text: #f0efea;
+        --muted: #b4b3ad;
+        --border: #3a3a36;
+        --heading: #f7f6f2;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Segoe UI", sans-serif;
+      line-height: 1.5;
+      font-size: 16px;
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 1.25rem 1rem 2.5rem;
+    }
+    h1 {
+      margin: 0 0 0.5rem;
+      font-size: 1.4rem;
+      line-height: 1.3;
+      color: var(--heading);
+      font-weight: 700;
+    }
+    .lede, .weather {
+      margin: 0 0 0.75rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    h2 {
+      margin: 1.5rem 0 0.75rem;
+      font-size: 1.15rem;
+      color: var(--heading);
+      font-weight: 700;
+    }
+    .carousel {
+      display: flex;
+      gap: 0.75rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      margin-inline: -1rem;
+      padding: 0 1rem 0.5rem;
+    }
+    .card {
+      flex: 0 0 min(80vw, 320px);
+      scroll-snap-align: start;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-photo {
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      background: var(--border);
+    }
+    .card-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .card-body {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .card-body h3 {
+      margin: 0 0 0.15rem;
+      font-size: 1.05rem;
+      line-height: 1.3;
+      color: var(--heading);
+      font-weight: 650;
+    }
+    .card-body p {
+      margin: 0;
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+
+    .card-body a.map-link {
+      color: #0b57d0;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    @media (prefers-color-scheme: dark) {
+      .card-body a.map-link {
+        color: #8ab4f8;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>부여 롯데리조트 2박 3일 맛집·볼거리</h1>
+    <p class="lede">2026년 11월 20일(금) 저녁부터 22일(일)까지, 어른 6명, 아이 3명(6·8·10살) 기준. 롯데리조트 부여에서 차로 약 30분 안 맛집과 볼거리입니다.</p>
+    <p class="weather">20일(금) 흐리고 비/눈, -2 / 6°C. 21일(토) 흐림, -3 / 5°C. 22일(일) 맑음, -3 / 8°C.</p>
+
+    <section aria-labelledby="food">
+      <h2 id="food">맛집</h2>
+      <div class="carousel" role="region" aria-label="맛집">
+        <article class="card">
+          <div class="card-photo"><img src="images/food-jangwon.jpg" alt="장원막국수의 막국수" width="800" height="600" loading="lazy"></div>
+          <div class="card-body">
+            <h3>장원막국수</h3>
+            <p>거리 약 7.0km, 13분</p>
+            <p>리뷰 6,624</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/13427309" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-seodong.jpg" alt="서동한우 본점의 음식" width="800" height="1066" loading="lazy"></div>
+          <div class="card-body">
+            <h3>서동한우 본점</h3>
+            <p>거리 약 6.1km, 10분</p>
+            <p>리뷰 4,830</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/37405256" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-solnaeum.jpg" alt="솔내음레스토랑의 한정식" width="800" height="534" loading="lazy"></div>
+          <div class="card-body">
+            <h3>솔내음레스토랑</h3>
+            <p>거리 약 7.1km, 11분</p>
+            <p>리뷰 3,504</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/13427311" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-tongdak.jpg" alt="시골 통닭의 통닭" width="800" height="600" loading="lazy"></div>
+          <div class="card-body">
+            <h3>시골 통닭</h3>
+            <p>거리 약 6.8km, 10분</p>
+            <p>리뷰 3,499</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/13427321" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-eomgane.jpg" alt="엄가네곰탕의 갈비탕" width="800" height="1002" loading="lazy"></div>
+          <div class="card-body">
+            <h3>엄가네곰탕</h3>
+            <p>거리 약 6.0km, 10분</p>
+            <p>리뷰 2,306</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/17568601" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-gudulae.jpg" alt="구드래돌쌈밥의 쌈밥" width="800" height="550" loading="lazy"></div>
+          <div class="card-body">
+            <h3>구드래돌쌈밥</h3>
+            <p>거리 약 6.5km, 11분</p>
+            <p>리뷰 1,220</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/11714454" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-yeonkkon.jpg" alt="연꽃이야기의 연잎밥" width="800" height="800" loading="lazy"></div>
+          <div class="card-body">
+            <h3>연꽃이야기</h3>
+            <p>거리 약 6.5km, 10분</p>
+            <p>리뷰 927</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/20333721" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-yeonipdam.jpg" alt="연잎담의 한정식" width="800" height="600" loading="lazy"></div>
+          <div class="card-body">
+            <h3>연잎담</h3>
+            <p>거리 약 5.5km, 9분</p>
+            <p>리뷰 916</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/1051252330" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-baekjegung.jpg" alt="백제궁 수라간의 한정식" width="800" height="1132" loading="lazy"></div>
+          <div class="card-body">
+            <h3>백제궁 수라간</h3>
+            <p>거리 약 2.1km, 4분</p>
+            <p>리뷰 763</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/38552741" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-samjeong.jpg" alt="삼정식당의 한우파불고기" width="800" height="716" loading="lazy"></div>
+          <div class="card-body">
+            <h3>삼정식당</h3>
+            <p>거리 약 5.7km, 9분</p>
+            <p>리뷰 532</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/13427317" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-donkkas.jpg" alt="부여돈까스의 돈까스" width="800" height="1002" loading="lazy"></div>
+          <div class="card-body">
+            <h3>부여돈까스</h3>
+            <p>거리 약 6.8km, 10분</p>
+            <p>리뷰 508</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/1180654935" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-yecchon.jpg" alt="찬찬면가 예촌소바 본점의 소바" width="800" height="800" loading="lazy"></div>
+          <div class="card-body">
+            <h3>찬찬면가 예촌소바 본점</h3>
+            <p>거리 약 0.7km, 2분</p>
+            <p>리뷰 297</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/599003607" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-matssone.jpg" alt="맛소네의 갈비살" width="800" height="600" loading="lazy"></div>
+          <div class="card-body">
+            <h3>맛소네</h3>
+            <p>거리 약 2.1km, 5분</p>
+            <p>리뷰 204</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/1766932121" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/food-jangeo.jpg" alt="셀프옛장어구이의 민물장어" width="800" height="600" loading="lazy"></div>
+          <div class="card-body">
+            <h3>셀프옛장어구이</h3>
+            <p>거리 약 5.2km, 9분</p>
+            <p>리뷰 79</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/1383158033" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="sights">
+      <h2 id="sights">볼거리</h2>
+      <div class="carousel" role="region" aria-label="볼거리">
+        <article class="card">
+          <div class="card-photo"><img src="images/sight-baekje-land.jpg" alt="백제문화단지 전경" width="800" height="534" loading="lazy"></div>
+          <div class="card-body">
+            <h3>백제문화단지</h3>
+            <p>거리 리조트 바로 옆</p>
+            <p>운영시간 09:00–17:00</p>
+            <p>입장료 어른 6,000원, 청소년 4,500원, 어린이 3,000원</p>
+            <p>경로우대 65세 이상 무료</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/12019039" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/sight-history.jpg" alt="백제역사문화관 전시" width="800" height="532" loading="lazy"></div>
+          <div class="card-body">
+            <h3>백제역사문화관</h3>
+            <p>거리 리조트 옆, 단지 안</p>
+            <p>운영시간 09:00–17:00</p>
+            <p>입장료 어른 2,000원, 청소년 1,500원, 어린이 1,000원</p>
+            <p>경로우대 65세 이상 무료</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/19801523" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/sight-jeongnim.jpg" alt="정림사지 오층석탑" width="800" height="534" loading="lazy"></div>
+          <div class="card-body">
+            <h3>정림사지</h3>
+            <p>거리 차로 약 10–13분</p>
+            <p>운영시간 09:00–17:00</p>
+            <p>입장료 정림사지박물관 무료</p>
+            <p>경로우대 해당 없음</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/17737633" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/sight-gungnamji.jpg" alt="궁남지 풍경" width="800" height="534" loading="lazy"></div>
+          <div class="card-body">
+            <h3>궁남지</h3>
+            <p>거리 차로 약 10–13분</p>
+            <p>운영시간 상시 개방</p>
+            <p>입장료 무료</p>
+            <p>경로우대 해당 없음</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/13302613" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/sight-busosan.jpg" alt="부소산성 낙화암" width="800" height="600" loading="lazy"></div>
+          <div class="card-body">
+            <h3>부소산성·낙화암</h3>
+            <p>거리 차로 약 10–13분</p>
+            <p>운영시간 09:00–17:00</p>
+            <p>입장료 어른 2,000원, 청소년 1,100원, 어린이 1,000원</p>
+            <p>경로우대 65세 이상 무료</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/13491708" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/sight-buyeo-museum.jpg" alt="국립부여박물관 외관" width="800" height="480" loading="lazy"></div>
+          <div class="card-body">
+            <h3>국립부여박물관</h3>
+            <p>거리 약 7.2km, 11분</p>
+            <p>운영시간 09:00–18:00</p>
+            <p>입장료 무료</p>
+            <p>경로우대 해당 없음</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/11620561" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/sight-boat.jpg" alt="백마강 유람선" width="800" height="532" loading="lazy"></div>
+          <div class="card-body">
+            <h3>백마강 유람선</h3>
+            <p>거리 차로 약 10–13분</p>
+            <p>운영시간 09:00–17:00</p>
+            <p>입장료 편도 7,000원 / 왕복 11,000원, 어린이(3세~초등) 편도 5,000원 / 왕복 7,000원, 3세 미만 무료</p>
+            <p>경로우대 없음(65세 이상도 유료)</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/1019779998" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/sight-tombs.jpg" alt="부여왕릉원 봉분" width="800" height="600" loading="lazy"></div>
+          <div class="card-body">
+            <h3>부여왕릉원</h3>
+            <p>거리 차로 약 10–15분</p>
+            <p>운영시간 09:00–17:00</p>
+            <p>입장료 어른 1,000원, 청소년 600원, 어린이 400원</p>
+            <p>경로우대 65세 이상 무료</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/13345809" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/sight-gongsan.jpg" alt="공주 공산성 성곽" width="800" height="450" loading="lazy"></div>
+          <div class="card-body">
+            <h3>공주 공산성</h3>
+            <p>거리 약 32.9km, 36분</p>
+            <p>운영시간 09:00–17:00</p>
+            <p>입장료 어른 3,000원, 청소년·군인 2,000원, 어린이 1,000원</p>
+            <p>경로우대 65세 이상 무료</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/13192026" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/sight-muryeong.jpg" alt="무령왕릉 내부" width="800" height="486" loading="lazy"></div>
+          <div class="card-body">
+            <h3>공주 무령왕릉과 왕릉원</h3>
+            <p>거리 차로 약 35–38분</p>
+            <p>운영시간 09:00–17:00</p>
+            <p>입장료 어른 3,000원, 청소년·군인 2,000원, 어린이 1,000원</p>
+            <p>경로우대 확인 불가</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/20103341" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/sight-gongju-museum.jpg" alt="국립공주박물관 외관" width="800" height="462" loading="lazy"></div>
+          <div class="card-body">
+            <h3>국립공주박물관</h3>
+            <p>거리 약 33.3km, 38분</p>
+            <p>운영시간 09:00–18:00</p>
+            <p>입장료 상설 무료</p>
+            <p>경로우대 해당 없음</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/11620557" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="images/sight-aqua.jpg" alt="롯데리조트 부여 아쿠아가든 실내풀" width="800" height="800" loading="lazy"></div>
+          <div class="card-body">
+            <h3>롯데리조트 부여 아쿠아가든</h3>
+            <p>거리 숙소 안</p>
+            <p>운영시간 확인 불가</p>
+            <p>입장료 확인 불가</p>
+            <p>경로우대 확인 불가</p>
+                      <p><a class="map-link" href="https://m.place.naver.com/place/30846991" target="_blank" rel="noopener">네이버 지도</a></p>
+</div>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
